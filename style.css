@@ -16,6 +16,9 @@ header {
   font-size: var(--header-font-size);
 }
 
+
+/* IMPORTING FONTS */
+
 @font-face {
   font-family: "satoshi";
   src: url("/public/assets/fonts/Satoshi-Variable.ttf") format("ttf");
