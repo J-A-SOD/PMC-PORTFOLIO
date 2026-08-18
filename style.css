@@ -1,4 +1,41 @@
-:root {
-    --primary-color: #FFFFFF;
+body {
+  background-color: var(--bg-color);
+  transition: background-color var(--background-transition-speed) ease;
+  font-family: "cantonese-serif", serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  /* UPDATE THESE */
+}
 
+header {
+  background-color: var(--bg-color);
+  transition: background-color var(--background-transition-speed) ease;
+  font-family: var(--header-font-family);
+  font-weight: var(--header-font-weight);
+  font-size: var(--header-font-size);
+}
+
+@font-face {
+  font-family: "satoshi";
+  src: url("/public/assets/fonts/Satoshi-Variable.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "zodiak";
+  src: url("/public/assets/fonts/Zodiak-Variable.ttf") format("ttf");
+  font-display: swap;
+}
+/* NOT WORKING?? */
+@font-face { 
+  font-family: "cantonese-serif";
+  src: url("/public/assets/fonts/NotoSerifHK-VariableFont_wght.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "cantonese-sans";
+  src: url("/public/assets/fonts/NotoSansHK-VariableFont_wght.ttf") format("ttf");
+  font-display: swap;
 }
