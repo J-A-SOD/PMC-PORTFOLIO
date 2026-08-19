@@ -10,3 +10,5 @@ CUSTOM MADE DIGITAL DESIGN PORTFOLIO CONCEPT, CREATED FOR PMC DESIGN STUDIO
 |-----------|-----------|
 |3D Assets|Custom three.js implementation of assets and animations for visual interest|
 |Watercolour Artwork|Handmade art assets and digital animations of assets|
+
+Insert images and reference the custom shader used for 3d object from blender
